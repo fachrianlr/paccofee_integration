@@ -1,0 +1,4 @@
+keys/google-key.json
+.env
+logs/*
+.idea/*

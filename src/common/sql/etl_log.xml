@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<queries>
+    <query id="getMaxEtlDate">
+        <![CDATA[
+        SELECT MAX(etl_date)
+        FROM etl_log
+        WHERE
+            step = :step and
+            table_name ilike :table_name and
+            status = :status and
+            process = :process and
+            source = :source
+        ]]>
+    </query>
+</queries>
