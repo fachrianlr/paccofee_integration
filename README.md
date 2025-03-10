@@ -23,6 +23,7 @@ Data warehouse used for storing the processed data from the staging area. The da
 The pipeline process contains the following steps:
     - Extract data from the staging area
     - Transform the data
+    - Validation the data
     - Load the data into the data warehouse
 
 ### c. Tech Stack
